@@ -5,3 +5,5 @@ cd ..\
 
 :: Make folder hidden
 attrib +h %folder% /S /D
+
+CALL wal\startup.bat
