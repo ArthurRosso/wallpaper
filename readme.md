@@ -1,50 +1,19 @@
 # Win7 Wallpaper  
 
-Este projeto serve para trocar o wallpaper no Windows 7 por linha de comandos (.bat).   
+Sua instituição de ensino/empresa/lan house... usa windows 7 e não permite mudar o wallpaper? Então talvez este projeto possa te ajudar.
 
-## Começando  
+Este repositório contém um agregado de códigos encontrados nas mais profundas páginas do stack overflow, com o intuíto de mudar o wallpaper de um sistema win7 que não permita a troca por meios convencionais.
 
-Essas instruções farão com que você tenha uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste. Veja a implantação de notas sobre como implantar o projeto em um sistema ativo.  
+## Instruções
 
-### Pré-requisitos  
+Após o download, rode o `install.bat`. Ele deverá ocultar a pasta e criar um script que rode na inicialização do usuário para trocar o wallpaper.
 
-O que você precisa para usar e instalar este software  
+Para mudar o wallpaper, substitua o `sla.bmp` pela imagem que preferir (não precisa ser bitmap, mas esse formato parece funcionar melhor)
 
-```
-Windows 7  
-```
-
-### Instalando  
-
-Uma série passo a passo de exemplos que informam como obter um env de desenvolvimento em execução  
-
-
-```
-Substitua o sla.bmp pelo o wallpaper desejado (bmp funciona melhor que jpg e png)   
-```
-
-e  
-
-```
-Rode o install.bat  
-```
-
-TODO: Colocar um gif do funcionamento
-
-## Dependências
-
-* [Windows 7](https://pt.wikipedia.org/wiki/Windows_7) - O sistema operacional usado
-
-## Contribuindo
-
-Para contribuir conosco, por favor entre em contato no [RossoChat](https://rossochat.herokuapp.com).
-
-## Versionamento
-
-Estamos na versão 2.0
+O script roda no plano de fundo durante toda a sessão do usuário, possibilitando 'hot swap' do wallpaper (com o script rodando, é só mudar a imagem que o wallpaper muda junto)
 
 ## Autores
 
 * **Arthur Rosso** - [ArthurRosso](https://github.com/ArthurRosso)
-* **Pietro Carrara** - [PietroCarrara](https://github.com/PietroCarrara)
 * **Pedro Blauth** - [DanaZane](https://github.com/DanaZane) 
+* **Pietro Carrara** - [PietroCarrara](https://github.com/PietroCarrara)
